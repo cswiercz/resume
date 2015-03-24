@@ -1,6 +1,7 @@
 # Chris Swierczewski's Resume
 
-[Download my resume](https://github.com/cswiercz/resume/raw/master/resume.pdf), read, and hire.
+[Download my resume](https://github.com/cswiercz/resume/raw/master/resume/resume.pdf),
+read, and hire.
 
 **Contact Info:**
 
