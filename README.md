@@ -3,6 +3,9 @@
 [Download my resume](https://github.com/cswiercz/resume/raw/master/resume/resume.pdf),
 read, and hire.
 
+[Download my curriculum vitae](https://github.com/cswiercz/resume/raw/master/cv/cv.pdf),
+read, and hire.
+
 **Contact Info:**
 
 Chris Swierczewski <br />
