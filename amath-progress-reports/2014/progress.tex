@@ -1,0 +1,91 @@
+\documentclass[11pt]{amsart}
+
+\usepackage{fullpage}
+
+
+\begin{document}
+\begin{centering}
+\large{\bf{PROGRESS REPORT: 2013-2014}}
+
+\vspace{8pt}
+
+CHRIS SWIERCZEWSKI
+
+\vspace{8pt}
+
+\today %15 April 2013
+
+\vspace{8pt}
+
+\end{centering}
+
+\section*{Research Description}
+
+My primary goal is to make Abelian functions and Riemann surfaces, two
+mathematical objects seen in a very wide variety of applications, as
+computationally accessible as trigonometric and hyperbolic
+functions. Doing so would provide to the scientific community an
+essential ingredient in finding large families of solutions to partial
+differential equations arising in a variety of fields including plasma
+physics, nonlinear optics, and water waves.
+
+\section*{Research Update}
+
+At the start of this academic year I completed the first major feature
+of my software {\sc abelfunctions}: the calculation of period matrices
+of Riemann surfaces. Period matrices are important not only in
+applications to solutions to partial differential equations and
+optimization but have a large theoretical interest as
+well. Documentation for {\sc abelfunctions} can be found at {\tt
+  http://abelfunctions.cswiercz.info}.
+
+The next step was to implement the Abel map, a function mapping a
+Riemann surface to its Jacobian. However, the initial implementation of
+my algorithms lacked the infrastructure needed to write this algorithm
+elegantly. I spent part of this year studying object-oriented
+programming design patterns and software architecture design
+\cite{Gamma1995, Martin2000}. Most of {\sc abelfunctions} is now
+rewritten with these principles in place and the result has been not
+only code that's easier to work with and read but better performing
+code. All non-symbolic operations execute at least 80\% faster. This
+sub-project is in line with my initial research goal of making an
+easy-to-extend platform for computing with Riemann surfaces.
+
+Grady Williams has completed his work on developing a high-performance
+version of the Riemann theta function using GPUs. His implementation
+provides at least a x100 speedup to the algorithm. A paper on further
+improving Riemann theta performance via the Siegel transform is in the
+works. Grady will be attending the Ph.D. program in Robotics at Georgia
+Tech starting Autumn 2014.
+
+I ended the winter quarter with the successful completion of my general
+examination. My committee includes my advisor Bernard Deconinck as well
+as Randy LeVeque and Robert O'Malley from the Applied Mathematics
+department and William Stein and Rekha Thomas from Mathematics. The
+major components of {\sc abelfunctions} that remain are the calculation
+of the Riemann constant vector and building a framework for defining and
+evaluating other types of differentials.  With the software development
+portion of my work winding down I've begun a more extensive literature
+review of the background and applications of these computational tools.
+
+\section*{Expected Academic Schedule}
+
+I expect to complete my degree at the end of Spring or Summer of 2015.
+
+
+\bibliographystyle{amsplain}
+\begin{thebibliography}{9}
+\bibitem{Gamma1995} Gamma, Erich and Helm, Richard and Johnson, Ralph
+  and Vlissides, John, \emph{Design Patterns: Elements of Reusable
+    Object-oriented Software}, {Addison-Wesley Longman Publishing Co.,
+    Inc.}, {Boston, MA, USA}, {1995}.
+
+\bibitem{Martin2000} Martin, Robert \emph{Design Principles and Design
+  Patterns}, \tt{www.objectmentor.com}, {2000}.
+
+
+\end{thebibliography}
+
+
+\end{document}
+
